@@ -57,7 +57,17 @@ export default function Home() {
       {/* Commercial Video Section */}
       <section id="commercial" style={{ padding: '100px 5% 50px', textAlign: 'center' }}>
         <div style={{ maxWidth: '1000px', margin: '0 auto', borderRadius: '30px', overflow: 'hidden', boxShadow: '0 30px 60px rgba(42,84,121,0.15)', border: '1px solid var(--border-color)', position: 'relative' }}>
-          <video src="/PG_LUMABAND_Commercial.mp4" controls autoPlay muted loop playsInline style={{ width: '100%', display: 'block' }}></video>
+          <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/qD6YCma2Z84?si=3nIvbY88-Fu3I_a5" 
+            title="YouTube video player" 
+            frameBorder={0} 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen
+            style={{ aspectRatio: '16/9', display: 'block' }}
+          ></iframe>
         </div>
         <h2 style={{ marginTop: '40px', fontSize: 'clamp(2rem,3vw,2.5rem)', color: 'var(--text-main)' }}>See LumaBand in Action</h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem' }}>The simplest way to keep your loved ones safe.</p>
