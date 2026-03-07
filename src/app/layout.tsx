@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import { CartProvider } from '../components/CartProvider';
 import SmoothScrolling from '../components/SmoothScrolling';
 import GSAPAnimations from '../components/GSAPAnimations';
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: 'LumaBand | Care You Can Wear',
@@ -45,6 +47,8 @@ export default function RootLayout({
             </main>
             <Footer />
           </CartProvider>
+          <Analytics />
+          <SpeedInsights />
         </SmoothScrolling>
       </body>
     </html>
