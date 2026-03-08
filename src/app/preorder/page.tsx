@@ -88,7 +88,7 @@ export default function Preorder() {
       </section>
 
       <section style={{ padding: '20px 5% 100px' }} id="order-form">
-        <div className="cta-box" style={{ textAlign: 'left', maxWidth: '1100px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', padding: '60px' }}>
+        <div className="cta-box order-grid-container">
           
           <div className="order-info">
             <h2 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>LumaBand Unit</h2>
@@ -133,7 +133,7 @@ export default function Preorder() {
               <input type="email" id="email" name="email" placeholder="Email Address" required />
               <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
               
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+              <div className="form-grid-2col">
                 <select id="quantity" name="quantity" required value={quantity || ''} onChange={handleQuantityChange}>
                   <option value="" disabled>Quantity</option>
                   <option value="1">1 Unit</option>

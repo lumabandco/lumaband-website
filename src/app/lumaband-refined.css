@@ -1280,6 +1280,35 @@ footer .logo img {
     font-family: 'Outfit', sans-serif;
 }
 
+/* Responsive Order Grid */
+.order-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-grid-2col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 992px) {
+    .order-grid-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding: 60px;
+    }
+    
+    .form-grid-2col {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 /* Tablet/Large Phone responsiveness - Master breakpoint at 1200px */
 @media (max-width: 1200px) {
     .split-section {
