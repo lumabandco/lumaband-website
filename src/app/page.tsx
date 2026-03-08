@@ -21,7 +21,7 @@ export default function Home() {
           <h1>Care You Can <span>Wear.</span></h1>
           <p>LumaBand keeps an empathetic eye on your family, sending instant alerts when a fall happens, giving older adults freedom and keeping you in the loop.</p>
           <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', marginTop: '10px' }}>
-            <Link href="/preorder" className="btn btn-primary btn-hero-cta">
+            <Link href="/order" className="btn btn-primary btn-hero-cta">
               Order Your LumaBand Now <ArrowRight size={20} />
             </Link>
           </div>
@@ -186,7 +186,7 @@ export default function Home() {
             <h2>Ready to protect <span>someone you love?</span></h2>
             <p className="cta-sub">One-time purchase. No hidden fees. No subscriptions. Just complete peace of mind.</p>
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-              <Link href="/preorder" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '14px 36px' }}>Order Now — SGD 74.99</Link>
+              <Link href="/order" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '14px 36px' }}>Order Now — SGD 74.99</Link>
               <a href="#features" className="btn btn-outline">See What&apos;s Inside</a>
             </div>
           </div>

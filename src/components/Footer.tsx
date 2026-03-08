@@ -22,7 +22,7 @@ export default function Footer() {
           <ul>
             <li><Link href="/#features">Features</Link></li>
             <li><Link href="/#technology">Technology</Link></li>
-            <li><Link href="/preorder">Pricing & Order</Link></li>
+            <li><Link href="/order">Pricing & Order</Link></li>
           </ul>
         </div>
 

@@ -61,11 +61,11 @@ export default function Navbar() {
         </nav>
 
         <div className="header-actions">
-          <Link href="/preorder" className="cart-icon desktop-only" title="View Cart">
+          <Link href="/order" className="cart-icon desktop-only" title="View Cart">
             <ShoppingCart size={22} />
             <span className={`cart-count${quantity > 0 ? ' visible' : ''}`}>{quantity}</span>
           </Link>
-          <Link href="/preorder" className="btn btn-primary desktop-only">Order Now</Link>
+          <Link href="/order" className="btn btn-primary desktop-only">Order Now</Link>
           
           {/* Mobile Menu Toggle */}
           <button 
@@ -123,7 +123,7 @@ export default function Navbar() {
             ))}
             <div style={{ marginTop: 'auto', display: 'flex', gap: '20px', flexDirection: 'column' }}>
               <Link 
-                href="/preorder" 
+                href="/order" 
                 onClick={closeMenu}
                 className="btn btn-primary" 
                 style={{ padding: '20px', textAlign: 'center', fontSize: '1.2rem' }}

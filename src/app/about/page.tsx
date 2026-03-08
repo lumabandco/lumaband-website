@@ -119,7 +119,7 @@ export default function About() {
           <h2>Join our mission.</h2>
           <p>Help us bring peace of mind to thousands of families across the Asia-Pacific region and beyond.</p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
-            <Link href="/preorder" className="btn btn-primary">Order Now</Link>
+            <Link href="/order" className="btn btn-primary">Order Now</Link>
             <a href="mailto:lumaband.co@gmail.com" className="btn btn-outline">Become a Partner</a>
           </div>
         </div>
