@@ -10,7 +10,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: 'LumaBand | Care You Can Wear',
+  title: 'LumaBand | AI-Powered Fall Detection',
   description: 'Smart fall detection wearable designed for elders. No subscriptions, sustainable 3D-printed case, lifetime updates.',
   icons: {
     icon: [
